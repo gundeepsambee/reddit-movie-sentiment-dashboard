@@ -5,49 +5,43 @@
 This project analyzes movie discussions across Reddit communities using natural language processing and sentiment analysis techniques. The system collects movie-related posts from subreddits such as r/movies, r/letterboxd, and r/TrueFilm, then detects movie mentions, analyzes emotional sentiment, and visualizes trends through an interactive dashboard.
 
 ## Features
-- Reddit API integration for live data collection
+- Reddit API integration for automated data collection
 - NLP-based movie title detection using spaCy
-- Multi-emotion sentiment analysis across Reddit discussions
-- Interactive Gradio dashboard for visualization
-- Cross-subreddit comparison tools
-- Timeline and popularity analysis for movies
+- Multi-emotion sentiment analysis pipeline
+- Interactive dashboard creation using Gradio
+- Cross-community comparison analysis
+- Timeline and popularity trend analysis
 
 ## Technologies Used
 - Python
 - PRAW (Reddit API)
 - spaCy
-- Gradio
 - Pandas
+- Gradio
 - Google Sheets API
 - NLP / Sentiment Analysis
 
 ## My Contributions
-- Built the Reddit data collection pipeline
-- Implemented movie detection and filtering logic
-- Developed sentiment and emotion analysis workflows
-- Created data visualizations and dashboard functionality
-- Integrated Google Sheets and CSV processing systems
+- Built Reddit scraping workflows
+- Developed movie detection and filtering logic
+- Implemented sentiment and emotion analysis
+- Processed and organized large discussion datasets
+- Designed interactive dashboard functionality
 
-## Dashboard Capabilities
-- Movie popularity rankings
-- Emotion distribution analysis
-- Timeline sentiment trends
-- Community comparison visualizations
-- Search and filtering functionality
+## System Workflow
 
-## Challenges & Learning
-One of the biggest challenges was accurately detecting movie titles in Reddit discussions while avoiding false positives and abbreviations. This project helped strengthen my experience in NLP, data processing, API integration, and dashboard development.
+Reddit API → Data Collection → Movie Detection → Emotion Analysis → Dashboard Visualization
 
-## Screenshots
-
-### Dashboard Overview
-![Dashboard](images/dashboard.png)
-
-### Emotion Analysis Example
-![Emotion Analysis](images/emotion_chart.png)
+## Key Learning Outcomes
+This project strengthened my experience in:
+- Natural language processing
+- API integration
+- Data analysis and visualization
+- Sentiment analysis workflows
+- Dashboard and analytics development
 
 ## Future Improvements
-- Deploy dashboard online
-- Add real-time streaming analysis
-- Improve movie entity recognition accuracy
-- Expand emotion classification categories
+- Real-time sentiment tracking
+- Expanded movie recognition capabilities
+- Improved visualization tools
+- Deployment of live dashboard
